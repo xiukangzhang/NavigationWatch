@@ -22,6 +22,12 @@ iPhone 与 Apple Watch 高德导航应用。支持真实驾车导航、Watch同�
 
 ## 仓库范围
 
-由正式NavigationWatch-Phase5源码导出，不含真实Key、设备日志、构建缓存、Pod/SDK二进制或个人位置记录。提交作者：张秀康。保留源码、测试、配置样例及经路径/设备标识脱敏的项目文档。暂无开源授权，第三方SDK许可不受本仓库影响。
+由正式NavigationWatch-Phase5源码导出，不含真实Key、设备日志、构建缓存、Pod/SDK二进制或个人位置记录。作者：张秀康。保留源码、测试、配置样例及经路径/设备标识脱敏的项目文档。
+
+## 开源许可
+
+本项目自有源码与文档采用 [MIT License](LICENSE)，Copyright (c) 2026 张秀康。允许使用、修改、分发及商业使用，须保留许可证与版权声明。
+
+高德等第三方 SDK、地图数据、服务及其商标不属于本项目的 MIT 授权范围，仍遵循供应商各自的许可和使用条款。使用者需自行获取 SDK、申请 API Key，并满足相关商业授权、隐私及地图版权展示要求。
 
 后续先读[交接](docs/NEXT_SESSION_HANDOFF.md)。仓库使用相对路径；交接文档中`<LOCAL_PROJECT_PATH>`和`<LOCAL_DEVICE_ID>`是本机记录脱敏标记。
