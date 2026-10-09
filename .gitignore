@@ -1,0 +1,17 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData*/
+Pods/
+Vendor/*.framework/
+Vendor/*.xcframework/
+*.xcuserstate
+xcuserdata/
+Config.local.xcconfig
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.log
+*.jsonl
+.env
+.env.*

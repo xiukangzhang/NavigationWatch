@@ -1,0 +1,3 @@
+// Copy to Config.local.xcconfig and enter the iOS navigation Key bound to dev.local.NavigationWatch.
+// Config.local.xcconfig is excluded from the shared project archive.
+AMAP_API_KEY = YOUR_KEY_HERE

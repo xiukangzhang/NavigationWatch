@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15226A342214CB5FEF58513F /* NavigationActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278427D111307A05A1D062D8 /* NavigationActivityAttributes.swift */; };
+		19D61D7F30B2D72FDA3C394F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EB1BB3FCB05C16CB43177D /* Foundation.framework */; };
+		1DDA83723E11007E622A3F5E /* NavigationEnrichment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DA4B1781CBD51FCB259D /* NavigationEnrichment.swift */; };
+		483D5904225CC56668BC77A4 /* NavigationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D878A84DD4242713409FB /* NavigationEngine.swift */; };
+		4DA780C418407EC71758FAFE /* NavigationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D878A84DD4242713409FB /* NavigationEngine.swift */; };
+		561BFC1C401BEA37A6733840 /* NavigationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608B0F0AAF8E7A072D7195 /* NavigationModels.swift */; };
+		7723F265B40FDA1EC94213C0 /* NavigationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7608B0F0AAF8E7A072D7195 /* NavigationModels.swift */; };
+		7AD5F57FB6D4097A9272ADC2 /* NavigationEnrichment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DA4B1781CBD51FCB259D /* NavigationEnrichment.swift */; };
+		7BF3ADEB5ACBD10E7D6969D8 /* MockNavigationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69763A7DDA6082BA504F71 /* MockNavigationProvider.swift */; };
+		7D1DD539753764408109B5C2 /* NavigationWatchPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C600D2760A7F92ABDAA913 /* NavigationWatchPhoneApp.swift */; };
+		801C02C0519C316DBD20043B /* NavigationDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3EED975FBE67A2D4AE80 /* NavigationDiagnostics.swift */; };
+		89655409ABD0E36B79CFB3FA /* MockNavigationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69763A7DDA6082BA504F71 /* MockNavigationProvider.swift */; };
+		8F84F507E6259D3F2074C45E /* NavigationWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFDB4A990384ECE3D80E53 /* NavigationWatchApp.swift */; };
+		97CB089702CB6EBFBF696A9D /* NavigationDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3EED975FBE67A2D4AE80 /* NavigationDiagnostics.swift */; };
+		9C5CAA2C8C3411DE59ABF304 /* NavigationActivityStateMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C745109ACC493D9E0D820C3 /* NavigationActivityStateMapper.swift */; };
+		9D068D7228937BCD4FE7533E /* NavigationActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278427D111307A05A1D062D8 /* NavigationActivityAttributes.swift */; };
+		A50000000000000000000001 /* AMapSnapshotMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50000000000000000000003 /* AMapSnapshotMapper.swift */; };
+		A50000000000000000000002 /* AMapNavigationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50000000000000000000004 /* AMapNavigationProvider.swift */; };
+		A60000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60000000000000000000003 /* Assets.xcassets */; };
+		A60000000000000000000002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60000000000000000000004 /* Assets.xcassets */; };
+		A80000000000000000000001 /* AMapEventMappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80000000000000000000002 /* AMapEventMappers.swift */; };
+		B60CBB5A148664D1E9B3E005 /* WatchSyncCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C969E426DFFAF00C8651E11 /* WatchSyncCoordinator.swift */; };
+		C9B0D6FBA25CD0F91C664B35 /* LiveActivityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721B8A4B88E7084C4C6A0298 /* LiveActivityCoordinator.swift */; };
+		CDBA0466BD38D4FCFE54D07F /* NavigationWatchWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D18E4CBC25FAC9B0FFE31648 /* NavigationWatchWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBF199E4F3D85E9E0844A826 /* ActivityKitNavigationDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964D1BDFCB232847F9C2481 /* ActivityKitNavigationDriver.swift */; };
+		EB2B15D5B3ED9CBE26D7ABD9 /* NavigationLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9FA96C6E3CC5EBFABD539A /* NavigationLiveActivity.swift */; };
+		F393AC3A2E794063D9B9E31A /* NavigationWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0B95F0EBF1DBCA96E7BB8A8 /* NavigationWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F54C181E7A861BC69A9B9BC2 /* WatchConnectivityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BADEFEDBADCCC4F83D684B /* WatchConnectivityClient.swift */; };
+		A11000000000000000000003 /* AppleRouteMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11000000000000000000001; };
+		A11000000000000000000004 /* AppleRouteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11000000000000000000002; };
+		A12000000000000000000002 /* AMapDestinationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12000000000000000000001; };
+		A12000000000000000000005 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A12000000000000000000003; };
+		A12000000000000000000006 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A12000000000000000000004; };
+		A13000000000000000000002 /* AMapShareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13000000000000000000001; };
+		A15000000000000000000002 /* DestinationHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15000000000000000000001; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F2AAD56C1D4D14931142AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EEA43653B79789C4EBBBA8B;
+			remoteInfo = NavigationWidgets;
+		};
+		DCF5117FC643870B60FFA289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6647309944B240F464BE22;
+			remoteInfo = NavigationWatchWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAE1492BDE49D13FF7E211EB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDBA0466BD38D4FCFE54D07F /* NavigationWatchWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D1E2BC63776DF98AA595C7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F393AC3A2E794063D9B9E31A /* NavigationWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C6D878A84DD4242713409FB /* NavigationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEngine.swift; sourceTree = "<group>"; };
+		15BADEFEDBADCCC4F83D684B /* WatchConnectivityClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityClient.swift; sourceTree = "<group>"; };
+		278427D111307A05A1D062D8 /* NavigationActivityAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationActivityAttributes.swift; sourceTree = "<group>"; };
+		2E70DA4B1781CBD51FCB259D /* NavigationEnrichment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationEnrichment.swift; sourceTree = "<group>"; };
+		3A4D3EED975FBE67A2D4AE80 /* NavigationDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDiagnostics.swift; sourceTree = "<group>"; };
+		48AE90C78E8149A9FDF80FEF /* NavigationWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = NavigationWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50726A7F6B07BC9E27B616E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EFDB4A990384ECE3D80E53 /* NavigationWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatchApp.swift; sourceTree = "<group>"; };
+		5D69763A7DDA6082BA504F71 /* MockNavigationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationProvider.swift; sourceTree = "<group>"; };
+		6964D1BDFCB232847F9C2481 /* ActivityKitNavigationDriver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityKitNavigationDriver.swift; sourceTree = "<group>"; };
+		6C969E426DFFAF00C8651E11 /* WatchSyncCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncCoordinator.swift; sourceTree = "<group>"; };
+		721B8A4B88E7084C4C6A0298 /* LiveActivityCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveActivityCoordinator.swift; sourceTree = "<group>"; };
+		9C745109ACC493D9E0D820C3 /* NavigationActivityStateMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationActivityStateMapper.swift; sourceTree = "<group>"; };
+		A50000000000000000000003 /* AMapSnapshotMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMapSnapshotMapper.swift; sourceTree = "<group>"; };
+		A50000000000000000000004 /* AMapNavigationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMapNavigationProvider.swift; sourceTree = "<group>"; };
+		A50000000000000000000005 /* Config.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.Debug.xcconfig; sourceTree = "<group>"; };
+		A50000000000000000000006 /* Config.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.Release.xcconfig; sourceTree = "<group>"; };
+		A60000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60000000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7608B0F0AAF8E7A072D7195 /* NavigationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModels.swift; sourceTree = "<group>"; };
+		A80000000000000000000002 /* AMapEventMappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMapEventMappers.swift; sourceTree = "<group>"; };
+		C0B95F0EBF1DBCA96E7BB8A8 /* NavigationWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NavigationWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18E4CBC25FAC9B0FFE31648 /* NavigationWatchWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = NavigationWatchWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C600D2760A7F92ABDAA913 /* NavigationWatchPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatchPhoneApp.swift; sourceTree = "<group>"; };
+		F8EB1BB3FCB05C16CB43177D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC9FA96C6E3CC5EBFABD539A /* NavigationLiveActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigationLiveActivity.swift; sourceTree = "<group>"; };
+		A11000000000000000000001 /* AppleRouteMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatch/Providers/Apple/AppleRouteMapper.swift; sourceTree = SOURCE_ROOT; };
+		A11000000000000000000002 /* AppleRouteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatch/Providers/Apple/AppleRouteProvider.swift; sourceTree = SOURCE_ROOT; };
+		A12000000000000000000001 /* AMapDestinationSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatch/Providers/AMap/AMapDestinationSearch.swift; sourceTree = SOURCE_ROOT; };
+		A12000000000000000000003 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NavigationWatch/iOS/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		A12000000000000000000004 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NavigationWatch/Watch/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		A13000000000000000000001 /* AMapShareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatch/Providers/AMap/AMapShareLink.swift; sourceTree = SOURCE_ROOT; };
+		A15000000000000000000001 /* DestinationHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWatch/iOS/DestinationHistoryStore.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47025500C61453574E3FAA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D61D7F30B2D72FDA3C394F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8AAEF9572325E495396CD4 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				FC9FA96C6E3CC5EBFABD539A /* NavigationLiveActivity.swift */,
+				50726A7F6B07BC9E27B616E4 /* Info.plist */,
+			);
+			name = Widgets;
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		2F3A6B1E78F896718625FF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48AE90C78E8149A9FDF80FEF /* NavigationWatch.app */,
+				D18E4CBC25FAC9B0FFE31648 /* NavigationWatchWatch.app */,
+				C0B95F0EBF1DBCA96E7BB8A8 /* NavigationWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F393EDC2237E57D929E8E65 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5D69763A7DDA6082BA504F71 /* MockNavigationProvider.swift */,
+				0C6D878A84DD4242713409FB /* NavigationEngine.swift */,
+				A7608B0F0AAF8E7A072D7195 /* NavigationModels.swift */,
+				3A4D3EED975FBE67A2D4AE80 /* NavigationDiagnostics.swift */,
+				2E70DA4B1781CBD51FCB259D /* NavigationEnrichment.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4A08CB2A0AE0DCE2357D798F /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				A60000000000000000000004 /* Assets.xcassets */,
+				56EFDB4A990384ECE3D80E53 /* NavigationWatchApp.swift */,
+				15BADEFEDBADCCC4F83D684B /* WatchConnectivityClient.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		60C1F604D2B78C7297137C90 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A60000000000000000000003 /* Assets.xcassets */,
+				E6C600D2760A7F92ABDAA913 /* NavigationWatchPhoneApp.swift */,
+				A15000000000000000000001 /* DestinationHistoryStore.swift */,
+				6C969E426DFFAF00C8651E11 /* WatchSyncCoordinator.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		733EBE7F44D49A599E869C4F /* NavigationWatch */ = {
+			isa = PBXGroup;
+			children = (
+				60C1F604D2B78C7297137C90 /* iOS */,
+				A80000000000000000000003 /* Providers */,
+				4A08CB2A0AE0DCE2357D798F /* Watch */,
+				3F393EDC2237E57D929E8E65 /* Shared */,
+				E723919926D2626861CA6A24 /* LiveActivity */,
+				0D8AAEF9572325E495396CD4 /* Widgets */,
+			);
+			path = NavigationWatch;
+			sourceTree = "<group>";
+		};
+		9C44F5EAD304BC49D42BD60E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB1BB3FCB05C16CB43177D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A80000000000000000000003 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				A80000000000000000000004 /* AMap */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		A80000000000000000000004 /* AMap */ = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000004 /* AMapNavigationProvider.swift */,
+				A12000000000000000000001 /* AMapDestinationSearch.swift */,
+				A13000000000000000000001 /* AMapShareLink.swift */,
+				A11000000000000000000002 /* AppleRouteProvider.swift */,
+				A11000000000000000000001 /* AppleRouteMapper.swift */,
+				A80000000000000000000002 /* AMapEventMappers.swift */,
+				A50000000000000000000003 /* AMapSnapshotMapper.swift */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		B9340614599AB78F485950C7 = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000005 /* Config.Debug.xcconfig */,
+				A50000000000000000000006 /* Config.Release.xcconfig */,
+				733EBE7F44D49A599E869C4F /* NavigationWatch */,
+				2F3A6B1E78F896718625FF06 /* Products */,
+				CFFDA8643B2C3EE62A5555FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFDA8643B2C3EE62A5555FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C44F5EAD304BC49D42BD60E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E723919926D2626861CA6A24 /* LiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				278427D111307A05A1D062D8 /* NavigationActivityAttributes.swift */,
+				9C745109ACC493D9E0D820C3 /* NavigationActivityStateMapper.swift */,
+				721B8A4B88E7084C4C6A0298 /* LiveActivityCoordinator.swift */,
+				6964D1BDFCB232847F9C2481 /* ActivityKitNavigationDriver.swift */,
+			);
+			name = LiveActivity;
+			path = LiveActivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEA43653B79789C4EBBBA8B /* NavigationWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D588EB667BDFEEB2191A87F5 /* Build configuration list for PBXNativeTarget "NavigationWidgets" */;
+			buildPhases = (
+				5C48BDBD3FE983085DCA3C7F /* Sources */,
+				47025500C61453574E3FAA05 /* Frameworks */,
+				527D10807AC106AB2A3AD2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationWidgets;
+			productName = NavigationWidgets;
+			productReference = C0B95F0EBF1DBCA96E7BB8A8 /* NavigationWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F6647309944B240F464BE22 /* NavigationWatchWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7B9934200344F1537248A9 /* Build configuration list for PBXNativeTarget "NavigationWatchWatch" */;
+			buildPhases = (
+				D3A411BD92F95F36C75285B2 /* Sources */,
+				A60000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationWatchWatch;
+			productName = NavigationWatchWatch;
+			productReference = D18E4CBC25FAC9B0FFE31648 /* NavigationWatchWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8562D9895570D4D899892B05 /* NavigationWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26855716F9E3C0BC1DF394F7 /* Build configuration list for PBXNativeTarget "NavigationWatch" */;
+			buildPhases = (
+				21D32CB23B1C5FF746855133 /* Sources */,
+				A60000000000000000000006 /* Resources */,
+				BAE1492BDE49D13FF7E211EB /* Embed Watch Content */,
+				E1D1E2BC63776DF98AA595C7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA764BB90B8A6E02D556A309 /* PBXTargetDependency */,
+				87D69FC6FBCDB0ED7D42A027 /* PBXTargetDependency */,
+			);
+			name = NavigationWatch;
+			productName = NavigationWatch;
+			productReference = 48AE90C78E8149A9FDF80FEF /* NavigationWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					1F6647309944B240F464BE22 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					8562D9895570D4D899892B05 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 17F2F5293824BCEEECC069B9 /* Build configuration list for PBXProject "NavigationWatch" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = B9340614599AB78F485950C7;
+			productRefGroup = 2F3A6B1E78F896718625FF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8562D9895570D4D899892B05 /* NavigationWatch */,
+				1F6647309944B240F464BE22 /* NavigationWatchWatch */,
+				0EEA43653B79789C4EBBBA8B /* NavigationWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527D10807AC106AB2A3AD2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12000000000000000000006 /* PrivacyInfo.xcprivacy in Resources */,
+				A60000000000000000000002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12000000000000000000005 /* PrivacyInfo.xcprivacy in Resources */,
+				A60000000000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D32CB23B1C5FF746855133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1DD539753764408109B5C2 /* NavigationWatchPhoneApp.swift in Sources */,
+				A15000000000000000000002 /* DestinationHistoryStore.swift in Sources */,
+				A50000000000000000000002 /* AMapNavigationProvider.swift in Sources */,
+				A12000000000000000000002 /* AMapDestinationSearch.swift in Sources */,
+				A13000000000000000000002 /* AMapShareLink.swift in Sources */,
+				A80000000000000000000001 /* AMapEventMappers.swift in Sources */,
+				A50000000000000000000001 /* AMapSnapshotMapper.swift in Sources */,
+				B60CBB5A148664D1E9B3E005 /* WatchSyncCoordinator.swift in Sources */,
+				7BF3ADEB5ACBD10E7D6969D8 /* MockNavigationProvider.swift in Sources */,
+				4DA780C418407EC71758FAFE /* NavigationEngine.swift in Sources */,
+				561BFC1C401BEA37A6733840 /* NavigationModels.swift in Sources */,
+				801C02C0519C316DBD20043B /* NavigationDiagnostics.swift in Sources */,
+				15226A342214CB5FEF58513F /* NavigationActivityAttributes.swift in Sources */,
+				9C5CAA2C8C3411DE59ABF304 /* NavigationActivityStateMapper.swift in Sources */,
+				C9B0D6FBA25CD0F91C664B35 /* LiveActivityCoordinator.swift in Sources */,
+				DBF199E4F3D85E9E0844A826 /* ActivityKitNavigationDriver.swift in Sources */,
+				7AD5F57FB6D4097A9272ADC2 /* NavigationEnrichment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C48BDBD3FE983085DCA3C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2B15D5B3ED9CBE26D7ABD9 /* NavigationLiveActivity.swift in Sources */,
+				9D068D7228937BCD4FE7533E /* NavigationActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A411BD92F95F36C75285B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F84F507E6259D3F2074C45E /* NavigationWatchApp.swift in Sources */,
+				F54C181E7A861BC69A9B9BC2 /* WatchConnectivityClient.swift in Sources */,
+				89655409ABD0E36B79CFB3FA /* MockNavigationProvider.swift in Sources */,
+				483D5904225CC56668BC77A4 /* NavigationEngine.swift in Sources */,
+				7723F265B40FDA1EC94213C0 /* NavigationModels.swift in Sources */,
+				97CB089702CB6EBFBF696A9D /* NavigationDiagnostics.swift in Sources */,
+				1DDA83723E11007E622A3F5E /* NavigationEnrichment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87D69FC6FBCDB0ED7D42A027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationWidgets;
+			target = 0EEA43653B79789C4EBBBA8B /* NavigationWidgets */;
+			targetProxy = 61F2AAD56C1D4D14931142AE /* PBXContainerItemProxy */;
+		};
+		FA764BB90B8A6E02D556A309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6647309944B240F464BE22 /* NavigationWatchWatch */;
+			targetProxy = DCF5117FC643870B60FFA289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1312A7AE66FFC219DAC8B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		31FFC8AFFECC7B739213AABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50000000000000000000005 /* Config.Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationWatch/iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.NavigationWatch;
+				PRODUCT_NAME = NavigationWatch;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BADAC847B22E7CA0DAEFBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		5096E2D45194D60BDB4577EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationWatch/Widgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.NavigationWatch.liveactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		839E6761504F39AFA4125D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationWatch/Watch/Info.plist;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.local.NavigationWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.NavigationWatch.watchkitapp;
+				PRODUCT_NAME = NavigationWatchWatch;
+				SDKROOT = watchos;
+				CURRENT_PROJECT_VERSION = 10;
+				MARKETING_VERSION = 1.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		DE2BD765EA5F5E0C4EF6F003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50000000000000000000006 /* Config.Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationWatch/iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.NavigationWatch;
+				PRODUCT_NAME = NavigationWatch;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EEF65C27A8DB0310A230F19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationWatch/Watch/Info.plist;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.local.NavigationWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.NavigationWatch.watchkitapp;
+				PRODUCT_NAME = NavigationWatchWatch;
+				SDKROOT = watchos;
+				CURRENT_PROJECT_VERSION = 10;
+				MARKETING_VERSION = 1.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		F47D15795ED4C16C968701E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationWatch/Widgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.NavigationWatch.liveactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17F2F5293824BCEEECC069B9 /* Build configuration list for PBXProject "NavigationWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1312A7AE66FFC219DAC8B17A /* Debug */,
+				4BADAC847B22E7CA0DAEFBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26855716F9E3C0BC1DF394F7 /* Build configuration list for PBXNativeTarget "NavigationWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FFC8AFFECC7B739213AABE /* Debug */,
+				DE2BD765EA5F5E0C4EF6F003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7B9934200344F1537248A9 /* Build configuration list for PBXNativeTarget "NavigationWatchWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF65C27A8DB0310A230F19A /* Debug */,
+				839E6761504F39AFA4125D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D588EB667BDFEEB2191A87F5 /* Build configuration list for PBXNativeTarget "NavigationWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47D15795ED4C16C968701E5 /* Release */,
+				5096E2D45194D60BDB4577EE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>AMapAPIKey</key>
+	<string>$(AMAP_API_KEY)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>位置用于计算驾车路线，并在导航期间（包括锁屏后）持续更新引导；停止导航后结束定位。</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+	<key>CFBundleDisplayName</key>
+	<string>NavigationWatch</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>位置用于路线规划和实时导航；导航期间在后台与锁屏时继续更新，结束后停止本次定位。</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>dev.local.NavigationWatch.import</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>navigationwatch</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

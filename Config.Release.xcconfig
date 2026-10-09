@@ -1,0 +1,7 @@
+#include? "Pods/Target Support Files/Pods-NavigationWatch/Pods-NavigationWatch.release.xcconfig"
+AMAP_API_KEY =
+#include? "Config.local.xcconfig"
+
+// Search9.8.1 official static framework; Foundation remains existing NO-IDFA1.9.1.
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Vendor"
+OTHER_LDFLAGS = $(inherited) -framework AMapSearchKit
